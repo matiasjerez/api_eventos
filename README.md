@@ -41,7 +41,7 @@ Listar todos los eventos
 Estructura JSON  <token> <br/>
 
 GET /api/events<br/> 
-Authorization: Bearer <token> <br/>
+Authorization: Bearer -token-  <br/>
   
 ---
 
@@ -53,7 +53,7 @@ Estructura JSON<br/>
 
 POST /api/events<br/> 
 Content-Type: application/json<br/>
-Authorization: Bearer <token><br/>
+Authorization: Bearer -token- <br/>
 <br/>
 {<br/>
 "titulo": String,<br/> 
