@@ -33,14 +33,16 @@ Content-Type: application/json<br/>
 }<br/>
 
 ---
+
 ### GET api/event/
 
 Listar todos los eventos
-
-Estructura JSON<br/>
+<br/>
+Estructura JSON  <token> <br/>
 
 GET /api/events<br/> 
-Authorization: Bearer <token><br/>
+Authorization: Bearer <token> <br/>
+  
 ---
 
 ### POST api/event/
