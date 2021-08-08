@@ -1,8 +1,8 @@
-#api_events
+# api_events<br/>
 API Rest que permite crear usuarios, iniciar sesión para generar un token y luego poder consultar todos los eventos disponibles y agregar nuevos. Desarrollada en Node con Express y MongoDB para la persistencia de los datos.
 
-##API ENDPOINTS
-###POST api/users/
+## API ENDPOINTS
+### POST api/users/
 
 Agregar un nuevo usuario
 
@@ -17,7 +17,7 @@ Content-Type: application/json <br/>
 
 --- 
 
-###POST api/login/
+### POST api/login/
 
 Iniciar sesión, se genera un token
 
