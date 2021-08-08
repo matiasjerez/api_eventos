@@ -6,7 +6,8 @@ API Rest que permite crear usuarios, iniciar sesión para generar un token y lue
 
 Agregar un nuevo usuario
 
-Estructura JSON
+Estructura JSON<br/>
+
 POST /api/users <br/>
 Content-Type: application/json <br/>
 <br/>
@@ -21,7 +22,8 @@ Content-Type: application/json <br/>
 
 Iniciar sesión, se genera un token
 
-Estructura JSON
+Estructura JSON<br/>
+
 POST /api/login <br/>
 Content-Type: application/json<br/>
 <br/>
@@ -31,14 +33,25 @@ Content-Type: application/json<br/>
 }<br/>
 
 ---
+### GET api/event/
 
-###POST api/event/
+Listar todos los eventos
+
+Estructura JSON<br/>
+
+GET /api/events<br/> 
+Authorization: Bearer <token><br/>
+---
+
+### POST api/event/
 
 Agregar un nuevo evento
 
+Estructura JSON<br/>
+
 POST /api/events<br/> 
 Content-Type: application/json<br/>
-Authorization: Bearer<br/>
+Authorization: Bearer <token><br/>
 <br/>
 {<br/>
 "titulo": String,<br/> 
